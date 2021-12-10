@@ -7,7 +7,7 @@ document.body.querySelector(".butt").addEventListener("click", function(){
     if(textValue==="cool" && textValuePass==="password"){
         responseDiv.innerHTML="You are the right user";
         list.push(textValue);
-        window.location.href="";
+        window.location.href="view.html";
         renderList();
     }else{
         responseDiv.innerHTML="You didn't type anything valid"
@@ -23,3 +23,4 @@ function  renderList(){
         itemsDiv.appendChild(ele);
     }
 }
+
